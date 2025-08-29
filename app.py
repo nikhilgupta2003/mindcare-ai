@@ -1,11 +1,8 @@
-import os
 import streamlit as st
 from openai import OpenAI
-from dotenv import load_dotenv
 
-# Load API key
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Load API key from Streamlit Secrets
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.set_page_config(page_title="MindCare AI", page_icon="💙")
 st.markdown("<h2 style='text-align: center;'>💙 MindCare AI - Confidential Chatbot (Text + Voice)</h2>", unsafe_allow_html=True)
