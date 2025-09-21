@@ -1,19 +1,19 @@
 # 💙 MindCare AI Chatbot
 
-This is a hackathon project — an empathetic, confidential chatbot for youth mental wellness.  
+✨ Features
 
-## Features
-- 💬 Text chat  
-- 🎤 Voice input (mic → text with Whisper)  
-- 🔊 AI replies  
+💬 Text Chat – Have natural, empathetic conversations with the AI.
 
-## 🚀 Run locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+🎤 Voice Input – Speak directly using your mic (SpeechRecognition + PyAudio).
 
-## 🌍 Deploy
-1. Push this repo to GitHub  
-2. Go to [Streamlit Cloud](https://share.streamlit.io)  
-3. Deploy → Set your `OPENAI_API_KEY` in Secrets Manager  
+🔊 AI Voice Replies (Optional) – Future-ready for text-to-speech integration.
+
+😊 Emotion Detection – Detects emotions in real-time using Hugging Face models.
+
+🤖 Dual AI Mode – Choose between Gemini (online) and Ollama (offline).
+
+🎨 Beautiful UI – Modern Streamlit interface with clean chat design.
+
+🔒 Privacy-Friendly – Run fully offline with Ollama if you don’t want online APIs.
+
+⚡ Real-Time – Quick responses with emotion visualization (confidence bars).
